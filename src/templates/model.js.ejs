@@ -1,0 +1,25 @@
+import Sequelize, { Model } from 'sequelize';
+import bcrypt from 'bcryptjs';
+
+class <%= props.name %> extends Model {
+  static init(sequelize) {
+    super.init({
+      // your fields here
+    }, {
+        sequelize
+    });
+    this.addHooks();
+    return this;
+  }
+
+  addHooks() {
+    this.addHook();
+  }
+
+  static associate(models) {
+    // your associations here
+  }
+
+}
+
+export default <%= props.name %> ;

@@ -1,0 +1,11 @@
+
+  /*
+  import UserController from '../controller/UserController.js';
+  import User from '../models/User.js'
+
+  routes.get('/user', UserController.index);
+  routes.post('/user', UserController.store);
+  routes.put('/user/:id', UserController.update);
+  routes.delete('/user/:id', UserController.delete);
+  */
+  
